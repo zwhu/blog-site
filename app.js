@@ -14,7 +14,4 @@ app.use(errorHandling(app))
 // header 加入响应时间
 app.use(responseTime())
 
-let port = 8080
-app.listen(port, () => {
-  console.log(`server is open: ${port}`)
-})
+export default app.callback()
