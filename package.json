@@ -27,6 +27,6 @@
     "redux": "^3.0.4",
     "redux-devtools": "^2.1.5",
     "redux-thunk": "^1.0.3",
-    "webpack": "^1.12.9"
+    "webpack": "^1.12.11"
   }
 }
