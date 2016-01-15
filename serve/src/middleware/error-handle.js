@@ -21,8 +21,8 @@ export default (app) => {
     } catch (err) {
       let {status = 500, message = 'server error!'} = err
       this.status = status
-      this.type   = 'json'
-      this.body   = {
+      this.type = 'json'
+      this.body = {
         error: message
       }
       app.emit('error', err, this)

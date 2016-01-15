@@ -14,4 +14,7 @@ app.use(errorHandling(app))
 // header 加入响应时间
 app.use(responseTime())
 
-export default app.callback()
+const port = 8080
+app.listen(port, function() {
+  console.log('Server listening on: ' + port)
+})
